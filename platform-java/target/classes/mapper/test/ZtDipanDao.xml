@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zhongtongnev.modules.test.dao.ZtDipanDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.zhongtongnev.modules.test.entity.ZtDipanEntity" id="ztDipanMap">
+        <result property="chassisId" column="chassis_id"/>
+        <result property="chassisCertificateId" column="chassis_certificate_id"/>
+        <result property="chassisCertificateTime" column="chassis_certificate_time"/>
+        <result property="chassisBusiness" column="chassis_business"/>
+        <result property="chassisBrand" column="chassis_brand"/>
+        <result property="chassisName" column="chassis_name"/>
+        <result property="chassisClassification" column="chassis_classification"/>
+        <result property="chassisType" column="chassis_type"/>
+        <result property="chassisColor" column="chassis_color"/>
+        <result property="chassisVin" column="chassis_VIN"/>
+        <result property="fuel" column="fuel"/>
+        <result property="engineType" column="engine_type"/>
+        <result property="displacement" column="displacement"/>
+        <result property="power" column="power"/>
+        <result property="engineId" column="engine_id"/>
+        <result property="effluentDischargeStandard" column="effluent_discharge_standard"/>
+        <result property="steeringType" column="steering_type"/>
+        <result property="tyreNumber" column="tyre_number"/>
+        <result property="tyreType" column="tyre_type"/>
+        <result property="tyreDistanceFront" column="tyre_distance_front"/>
+        <result property="tyreDistanceAfter" column="tyre_distance_after"/>
+        <result property="axleDistance" column="axle_distance"/>
+        <result property="axleLoad" column="axle_load"/>
+        <result property="axleNumber" column="axle_number"/>
+        <result property="plateSpring" column="plate_spring"/>
+        <result property="outlineDimensions" column="outline_dimensions"/>
+        <result property="chassisQuality" column="chassis_quality"/>
+        <result property="unladenMass" column="unladen_mass"/>
+        <result property="totalQuasiTractionMass" column="total_quasi_traction_mass"/>
+        <result property="semitrailerSaddleMass" column="semitrailer_saddle_mass"/>
+        <result property="cabPassengerNumber" column="cab_passenger_number"/>
+        <result property="maximumSpeed" column="maximum_speed"/>
+        <result property="chassisMaketime" column="chassis_maketime"/>
+        <result property="chassisRemark" column="chassis_remark"/>
+    </resultMap>
+
+    <select id="select" parameterType="string" resultType="com.zhongtongnev.modules.test.entity.ZtDipanEntity">
+        select * from zt_dipan where concat(chassis_id,chassis_certificate_id,chassis_certificate_time,chassis_business,chassis_brand,chassis_name,chassis_classification,chassis_type,chassis_color,
+                                            chassis_VIN,fuel,engine_type,displacement,power,engine_id,effluent_discharge_standard,steering_type,tyre_type,tyre_number,tyre_distance_front,tyre_distance_after,
+                                            axle_distance,axle_load,axle_number,plate_spring,outline_dimensions,chassis_quality,unladen_mass,total_quasi_traction_mass,semitrailer_saddle_mass,
+                                            cab_passenger_number,maximum_speed,chassis_maketime,chassis_remark)like '%${key}%'
+    </select>
+
+    <select id="getInfoById" parameterType="string" resultType="com.zhongtongnev.modules.test.entity.ZtDipanEntity">
+        select * from  zt_dipan where chassis_id= #{chassisId}
+    </select>
+</mapper>

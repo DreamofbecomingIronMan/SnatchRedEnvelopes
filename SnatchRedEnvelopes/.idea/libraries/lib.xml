@@ -1,0 +1,47 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.8.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-5.1.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.8.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/ognl-3.1.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-redis-1.8.15.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-5.1.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.1.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/jedis-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/spring-oxm-5.1.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/asm-5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/jstl-api-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-keyvalue-1.2.15.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/commons-dbcp2-2.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-5.1.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.13.15.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.22.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/ant-launcher-1.9.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-support-5.1.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/mysql-connector-java-6.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-core-2.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/ant-1.9.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-5.1.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/cglib-3.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-3.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/SnatchRedEnvelopes-0.0.1-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

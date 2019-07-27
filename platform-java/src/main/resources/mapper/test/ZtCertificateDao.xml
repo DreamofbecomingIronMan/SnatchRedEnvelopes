@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zhongtongnev.modules.test.dao.ZtCertificateDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.zhongtongnev.modules.test.entity.ZtCertificateEntity" id="ztCertificateMap">
+        <result property="id" column="id"/>
+        <result property="qualificationNumber" column="qualification_number"/>
+        <result property="qualificationDate" column="qualification_date"/>
+        <result property="businessName" column="business_name"/>
+        <result property="brandName" column="brand_name"/>
+        <result property="carName" column="car_name"/>
+        <result property="carModel" column="car_model"/>
+        <result property="carInentifyCode" column="car_inentify_code"/>
+        <result property="carColor" column="car_color"/>
+        <result property="internalDimensionsContainers" column="internal_dimensions_containers"/>
+        <result property="oilConsumption" column="oil_consumption"/>
+        <result property="totalQuality" column="total_quality"/>
+        <result property="ratedLoadQuality" column="rated_load_quality"/>
+        <result property="carrierQualityUtilization" column="carrier_quality_utilization"/>
+        <result property="chassisId" column="chassis_id"/>
+        <result property="remark" column="remark"/>
+    </resultMap>
+
+
+</mapper>
